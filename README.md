@@ -60,13 +60,13 @@ Para generar una versión optimizada para producción:
 3. **Desplegar en un servidor **
 Sube los archivos generados en la carpeta dist a tu servidor o servicio de hosting.
 
-Estructura del Proyecto
+## Estructura del Proyecto
     
     src/
     ├── assets/
     │   ├── components/       # Componentes reutilizables
     │   ├── pages/            # Páginas principales de la aplicación
-    │   ├── data/           # Llamado al Fecht API
+    │   ├── data/             # Llamado al Fecht API
     ├── App.jsx               # Componente principal
     ├── main.jsx              # Punto de entrada
 
