@@ -36,23 +36,18 @@ Sigue estos pasos para instalar y ejecutar la aplicación localmente:
    ```bash
     npm install
 
-
-
 3. **Iniciar el servidor de desarrollo**
 Inicia la aplicación en modo de desarrollo:
     ```bash
     npm run dev
-
 
 4. **Abrir en el navegador**
 Abre tu navegador y ve a la URL:
     ```bash
     http://localhost:"Numero de Puerto"
 
-
 ## Despliegue
 Para generar una versión optimizada para producción:
-
 
 1. **Construir la aplicación**
     ```bash
@@ -66,7 +61,7 @@ Para generar una versión optimizada para producción:
 Sube los archivos generados en la carpeta dist a tu servidor o servicio de hosting.
 
 Estructura del Proyecto
-    ```bash
+    
     src/
     ├── assets/
     │   ├── components/       # Componentes reutilizables
