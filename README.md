@@ -34,24 +34,21 @@ Sigue estos pasos para instalar y ejecutar la aplicación localmente:
 2. **Instalar dependencias** 
    Ejecuta el siguiente comando para instalar las dependencias del proyecto:
    ```bash
-    ```
     npm install
-    ```
+
 
 
 3. **Iniciar el servidor de desarrollo**
 Inicia la aplicación en modo de desarrollo:
     ```bash
-    ```
     npm run dev
-    ```
+
 
 4. **Abrir en el navegador**
 Abre tu navegador y ve a la URL:
     ```bash
-    ```
     http://localhost:"Numero de Puerto"
-    ```
+
 
 ## Despliegue
 Para generar una versión optimizada para producción:
@@ -59,29 +56,24 @@ Para generar una versión optimizada para producción:
 
 1. **Construir la aplicación**
     ```bash
-    ```
     npm run preview
-    ```
 
 2. **Previsualizar la aplicación**
-```bash
-```
-npm run build
-```
+    ```bash
+    npm run build
+
 3. **Desplegar en un servidor **
 Sube los archivos generados en la carpeta dist a tu servidor o servicio de hosting.
 
 Estructura del Proyecto
-```bash
-```
-src/
-├── assets/
-│   ├── components/       # Componentes reutilizables
-│   ├── pages/            # Páginas principales de la aplicación
-│   ├── data/           # Llamado al Fecht API
-├── App.jsx               # Componente principal
-├── main.jsx              # Punto de entrada
-```
+    ```bash
+    src/
+    ├── assets/
+    │   ├── components/       # Componentes reutilizables
+    │   ├── pages/            # Páginas principales de la aplicación
+    │   ├── data/           # Llamado al Fecht API
+    ├── App.jsx               # Componente principal
+    ├── main.jsx              # Punto de entrada
 
 ## Tecnologías Utilizadas
 - React.js: Biblioteca para construir interfaces de usuario.
