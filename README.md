@@ -33,33 +33,38 @@ Sigue estos pasos para instalar y ejecutar la aplicación localmente:
    
 2. **Instalar dependencias** 
    Ejecuta el siguiente comando para instalar las dependencias del proyecto:
-```
-npm install
-```
+   ```bash
+    ```
+    npm install
+    ```
 
 
 3. **Iniciar el servidor de desarrollo**
 Inicia la aplicación en modo de desarrollo:
-```
-npm run dev
-```
+    ```bash
+    ```
+    npm run dev
+    ```
 
 4. **Abrir en el navegador**
 Abre tu navegador y ve a la URL:
-```
-http://localhost:"Numero de Puerto"
-```
+    ```bash
+    ```
+    http://localhost:"Numero de Puerto"
+    ```
 
-##Despliegue
+## Despliegue
 Para generar una versión optimizada para producción:
 
 
 1. **Construir la aplicación**
-```
-npm run preview
-```
+    ```bash
+    ```
+    npm run preview
+    ```
 
 2. **Previsualizar la aplicación**
+```bash
 ```
 npm run build
 ```
@@ -67,6 +72,7 @@ npm run build
 Sube los archivos generados en la carpeta dist a tu servidor o servicio de hosting.
 
 Estructura del Proyecto
+```bash
 ```
 src/
 ├── assets/
