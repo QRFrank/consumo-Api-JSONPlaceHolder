@@ -1,12 +1,84 @@
-# React + Vite
+# Aplicación de consumo de API de Publicaciones y Comentarios con React.js
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta aplicación web utiliza **React.js** para consumir la API de **JSONPlaceholder** y mostrar publicaciones y comentarios. La aplicación incluye funcionalidades como paginación, filtrado por usuario, búsqueda de publicaciones y reutilización de componentes para mejorar la modularidad y mantenibilidad del código.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Página Principal
+- Lista paginada de publicaciones obtenidas de la API JSONPlaceholder.
+- Controles de navegación para ir a la página anterior y siguiente.
+- Campo de búsqueda para filtrar publicaciones por título o contenido.
 
-## Expanding the ESLint configuration
+### Detalles de Publicación
+- Permite al usuario hacer clic en una publicación para ver sus detalles en una sub-ruta.
+- Muestra los comentarios asociados a la publicación seleccionada.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Reutilización de Componentes
+- Componentes reutilizables para la lista de publicaciones, los detalles de la publicación y los comentarios.
+- Uso de props para pasar datos entre componentes de manera eficiente.
+
+## Requisitos Previos
+Antes de comenzar, asegúrate de tener instalado lo siguiente:
+- **Node.js** (versión 14 o superior)
+- **npm**
+
+## Instalación y Configuración
+
+Sigue estos pasos para instalar y ejecutar la aplicación localmente:
+
+1. **Clonar el repositorio**
+   ```bash
+   git clone https://github.com/tu-usuario/tu-repositorio.git
+   cd tu-repositorio
+   
+2. **Instalar dependencias** 
+   Ejecuta el siguiente comando para instalar las dependencias del proyecto:
+```
+npm install
+```
+
+
+3. **Iniciar el servidor de desarrollo**
+Inicia la aplicación en modo de desarrollo:
+```
+npm run dev
+```
+
+4. **Abrir en el navegador**
+Abre tu navegador y ve a la URL:
+```
+http://localhost:"Numero de Puerto"
+```
+
+##Despliegue
+Para generar una versión optimizada para producción:
+
+
+1. **Construir la aplicación**
+```
+npm run preview
+```
+
+2. **Previsualizar la aplicación**
+```
+npm run build
+```
+3. **Desplegar en un servidor **
+Sube los archivos generados en la carpeta dist a tu servidor o servicio de hosting.
+
+Estructura del Proyecto
+```
+src/
+├── assets/
+│   ├── components/       # Componentes reutilizables
+│   ├── pages/            # Páginas principales de la aplicación
+│   ├── data/           # Llamado al Fecht API
+├── App.jsx               # Componente principal
+├── main.jsx              # Punto de entrada
+```
+
+## Tecnologías Utilizadas
+- React.js: Biblioteca para construir interfaces de usuario.
+- Vite: Herramienta de construcción rápida para proyectos de React.
+- Material-UI: Biblioteca de componentes para el diseño de la interfaz.
+- JSONPlaceholder: API de prueba para obtener datos de publicaciones y comentarios.
