@@ -34,7 +34,7 @@ Sigue estos pasos para instalar y ejecutar la aplicación localmente:
 2. **Instalar dependencias** 
    Ejecuta el siguiente comando para instalar las dependencias del proyecto:
    ```bash
-    npm install
+    npm install --legacy-peer-deps
 
 3. **Iniciar el servidor de desarrollo**
 Inicia la aplicación en modo de desarrollo:
@@ -44,7 +44,7 @@ Inicia la aplicación en modo de desarrollo:
 4. **Abrir en el navegador**
 Abre tu navegador y ve a la URL:
     ```bash
-    http://localhost:"Numero de Puerto"
+    http://localhost:[Puerto]
 
 ## Despliegue
 Para generar una versión optimizada para producción:
